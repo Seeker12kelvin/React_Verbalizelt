@@ -14,11 +14,11 @@ const WhySection = (): JSX.Element => {
 
       </div>
 
-      <div className='w-full flex max-[1200px]:flex-wrap max-[1101px]:gap-10 gap-5 justify-between'>
+      <div className='w-full flex max-[1101px]:flex-wrap max-[1101px]:gap-10 justify-between'>
 
-        <img src={first_image} alt='A picture of a phone' className='max-h-145 max-w-screen w-full object-contain' />
+        <img src={first_image} alt='A picture of a phone' className='max-h-145 object-contain' />
 
-        <img src={second_image} alt='A picture of a phone' className='max-h-145 max-w-screen w-full object-contain' />
+        <img src={second_image} alt='A picture of a phone' className='max-h-145 object-contain' />
         
       </div>
 
