@@ -15,7 +15,7 @@ const Footer = (): JSX.Element => {
   ]
 
   return (
-    <footer className="w-full flex flex-col gap-10 items-center max-[767px]:py-10 max-[767px]:px-5 px-25 pt-20 pb-10 h-full">
+    <footer className="w-full flex flex-col gap-10 items-center max-[767px]:py-10 max-[767px]:px-5 px-25 max-[1001px]:px-10 max-[1001px]:pt-10 pt-20 pb-10 h-full">
       
       <div className="flex max-[767px]:flex-col max-[767px]:gap-10 max-[767px]:items-center justify-between items-start h-full w-full border-b-2 border-[#0000005a] max-[767px]:pb-10 min-[767px]:pb-20">
 
@@ -27,7 +27,7 @@ const Footer = (): JSX.Element => {
 
         </div>
 
-        <div className="flex max-[767px]:flex-nowrap max-[767px]:items-start max-[767px]:gap-10 gap-20 items-center h-full">
+        <div className="flex max-[1002px]:flex-nowrap max-[1002px]:items-start max-[1002px]:gap-10 gap-20 items-center h-full">
 
           {footerItems.map((data: FooterItems, index: number) => (
             <div key={index} className="flex flex-col gap-10 h-full">
