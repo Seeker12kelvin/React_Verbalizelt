@@ -1,5 +1,4 @@
 import type { JSX } from "react"
-import { MdOutlineMenu } from "react-icons/md";
 
 
 const Header = (): JSX.Element => {
