@@ -26,14 +26,14 @@ const HeroSection = (): JSX.Element => {
 
           <p className='text-lg tracking-wide font-light max-w-130'>We help you learn language easily, with small lessons, you'll earn points and new levels while improving your real world communications.</p>
 
-          <form className='min-[767px]:h-12.5 max-[767px]:h-25 flex max-[767px]:flex-col gap-3 items-center w-full'>
+          <form onSubmit={(e: React.SubmitEvent<HTMLFormElement>): void => e.preventDefault()} className='min-[767px]:h-12.5 max-[767px]:h-fit flex max-[476px]:flex-col gap-3 items-center w-full'>
 
             <input
               placeholder='Enter your email'
-              className='border-none outline-none bg-[#8080803c] rounded-4xl max-w-75 w-full placeholder:p-5 h-full'
+              className='border-none outline-none bg-[#8080803c] rounded-4xl max-w-75 w-full p-5 h-full'
             />
 
-            <button className='bg-[#ffd000] h-full px-5 text-sm font-semibold rounded-4xl'>Get Started</button>
+            <button className='bg-[#ffd000] h-full max-[767px]:py-4 max-[767px]:px-6 px-5 text-sm font-semibold rounded-4xl'>Get Started</button>
 
           </form>
 

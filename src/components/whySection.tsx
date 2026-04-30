@@ -6,7 +6,7 @@ const WhySection = (): JSX.Element => {
   return (
     <section className='flex flex-col gap-10 w-full max-[767px]:py-10 max-[767px]:px-5 px-25 py-20'>
 
-      <div className='flex max-[767px]:flex-col max-[767px]:gap-5 max-[767px]:text-center justify-between w-full'>
+      <div className='flex max-[767px]:flex-col max-[767px]:gap-5 max-[767px]:items-center max-[767px]:text-center justify-between w-full'>
 
         <h2 className='min-[767px]:text-5xl max-[767px]:text-3xl font-semibold max-w-150 w-full'>Why you'll love learning with Verbalizelt</h2>
 

@@ -15,19 +15,19 @@ const Footer = (): JSX.Element => {
   ]
 
   return (
-    <footer className="w-full flex flex-col gap-10 items-center px-25 pt-20 pb-10 h-full">
+    <footer className="w-full flex flex-col gap-10 items-center max-[767px]:py-10 max-[767px]:px-5 px-25 pt-20 pb-10 h-full">
       
-      <div className="flex justify-between items-start h-full w-full border-b-2 border-[#0000005a] pb-20">
+      <div className="flex max-[767px]:flex-col max-[767px]:gap-10 max-[767px]:items-center justify-between items-start h-full w-full border-b-2 border-[#0000005a] max-[767px]:pb-10 min-[767px]:pb-20">
 
-        <div className="flex flex-col gap-5 h-full">
+        <div className="flex flex-col min-[767px]:gap-5 max-[767px]:gap-3 h-full max-[767px]:">
           
           <h3 className="text-3xl font-semibold">Verbalizelt</h3>
 
-          <p className="max-w-73 w-full text-[1rem] tracking-wide font-light">Learning is a global training provider based across the UK that specialises in accrodited and bespoke training course.</p>
+          <p className="min-[767px]:max-w-73 w-full text-[1rem] tracking-wide font-light">Learning is a global training provider based across the UK that specialises in accrodited and bespoke training course.</p>
 
         </div>
 
-        <div className="flex gap-20 items-center h-full">
+        <div className="flex max-[767px]:flex-nowrap max-[767px]:items-start max-[767px]:gap-10 gap-20 items-center h-full">
 
           {footerItems.map((data: FooterItems, index: number) => (
             <div key={index} className="flex flex-col gap-10 h-full">
